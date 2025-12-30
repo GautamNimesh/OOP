@@ -8,4 +8,11 @@ public class Student {
 		this.age = age;
 		this.name = name;
 	}
+	
+	public String getName(){
+		return name;
+	}
+	public int getAge() {
+		return age;
+	}
 }
